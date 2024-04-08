@@ -1,0 +1,7 @@
+.input
+    {width:200px;}  
+
+.completarcampos
+    {border: 2px solid #BCBCBC;
+    text-align:center;
+    background: linear-gradient(#eeeeee, #ffffff);} 
