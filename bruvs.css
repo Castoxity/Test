@@ -10,6 +10,7 @@
 }
 
 .content {
+        width: 40%;
     border: 1px solid black;
     padding-top: 20px;
     padding-bottom: 15px;
@@ -35,6 +36,7 @@
 }
 
 button {
+    border-radius:800px;
     color: white;
     background-color: black;
     padding: 10px 50px;
@@ -68,7 +70,12 @@ input {
     width: 200px;
     color: red;
 }
-
+img{
+    width:200; 
+    height:200;
+    border-radius:100px;
+}
 h4{
+    margin-top:20;
     font-family: 'Franklin Gothic Medium'; font-weight: 500; font-size: 20px;
 }
