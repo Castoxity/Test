@@ -21,14 +21,28 @@
         </label>
         <br>
     </div>
-    <label for="Name" ><span>Username:</span></label>
-    <input type="text" id="n" name="username" placeholder="Eg; Cas">
-    <br><br>
-    <label for="Name" class="word"><span>Password:</span></label>
-    <input type="password" id="p" name="password" placeholder="aint tellin ya">
+  <form>
+        <label for="text"><span>Email:</span></label>
+        <input type="email" name="e" id="e" required>
     <br>
-    <button type="button">Login</button>
-    <div class="e"></div>
+    <label for="password"><span>Password:</span></label>
+    <input type="password" id="p" pattern="(?=.*\)(?=.*[a-z])(?=.*[A-Z]).{9,0}" required>
+    <br>
+    <input type="submit" value="Submit" id="action"></form>
 </div></center>
+
 </body>
 </html>
+
+
+<!--<script>
+    let a="";
+    let b="~`!@#$%^&*()_-+={[}]|\:;<,>.?/";
+    let c="abcdefghijklmnopqrstuvwxyz";
+    let d="1234567890"
+    document.getElementById('a').InnerHTML=p;
+    var l = a.toLowerCase();
+   if(console.log(l.includes(b)); && console.log(l.includes(c); && console.log(l.includes(d));)
+
+
+</script> -->
