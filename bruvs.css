@@ -1,22 +1,74 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@400;700&display=swap');
+
+/* * {
     padding: 0;
     margin: 0;
+} */
+.center {
+    text-align: center;
 }
 
-.content{
-    border:1px solid black;
-padding: 50px;
-background-color: black;
-align-items: center;
-  justify-content: center;
-  
+.content {
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    background-color: pink;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+#n {
+    margin: 20px;
+    font-family: 'Lato'; font-weight: 400; font-size: 15px;
+}
+#p {
+    margin: 20px;
+}
+
+.content label {
+    margin-bottom: 20px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    padding: 10px 50px;
+    font-size: 20px; /* Adjusted font size */
+    margin: 0 auto; /* Center horizontally */
+}
+
+
+span{
+    font-family:'cursive';
+    size:15px;
+    font-weight:400;
 
 }
-.content label{
-    color:white;
-   text-align: center;
 
+.e {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
-  input
-    {width:200px;}  
-jhasfdgjhgasgvdjyhsagf
+.content label {
+    color: black;
+    text-align: center;
+    /* Adjust margin as needed */
+    margin: 20px; /* Reduced margin */
+}
+
+input {
+    width: 200px;
+    color: red;
+}
+
+h4{
+    font-family: 'Franklin Gothic Medium'; font-weight: 500; font-size: 20px;
+}
