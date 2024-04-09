@@ -76,7 +76,8 @@ input {
 }
 #action{
     margin-top:20px;
-    padding:10px;
+    margin-left:125px;
+    padding:4px;
     font-family:Poppins;
     font-weight:500;
     font-size: 20px;
@@ -89,5 +90,5 @@ img{
 }
 h4{
     margin-top:20;
-    font-family: 'Franklin Gothic Medium'; font-weight: 500; font-size: 20px;
+    font-family:'Times New Roman'; font-weight: 500; font-size: 20px;
 }

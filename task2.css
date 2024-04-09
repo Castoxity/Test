@@ -1,0 +1,17 @@
+
+    .main{
+        position: fixed;
+        left:0;
+        width:50%;
+        margin-top: -150px;
+        background-color: white;
+    }
+body{
+    background-color: black;
+}
+.tl{
+    padding-bottom:40px;
+    align-items: left;   
+}*/
+
+/*width:auto*/
