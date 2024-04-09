@@ -1,17 +1,25 @@
 
-    .main{
-        position: fixed;
-        left:0;
-        width:50%;
-        margin-top: -150px;
-        background-color: white;
-    }
-body{
+.over {
+    position: relative;
+  /*  top: 0;
+    left: 0;*/
+  }
+  .left {
+    position: relative;
+    top: 0;
+    left: 0;
+    height:100%;
+    width:50%;
+    background-color: white;
+  }
+  .tl {
+    position: absolute;
+    top: 150px;
+    left: 125px;
+    height:8%;
+    width:8%;
+  }
+  body{
     background-color: black;
 }
-.tl{
-    padding-bottom:40px;
-    align-items: left;   
-}*/
-
 /*width:auto*/
